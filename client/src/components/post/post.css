@@ -1,0 +1,121 @@
+.post{
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.65); 
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.65);
+  background: rgb(59,68,211);
+  background: linear-gradient(53deg, rgba(59,68,211,1) 0%, rgba(53,39,226,1) 3%, rgba(240,80,230,1) 7%, rgba(248,248,248,1) 11%);
+  position: relative;
+}
+
+.postWrapper{
+  padding: 10px;
+}
+
+.postTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft{
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
+.postMenu{
+  /* border: 1px solid black; */
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  min-height: 50px;
+  width: 120px;
+  background-color: #F6F1F1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.postMenuItem{
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  width :95%;
+  margin-inline: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 10px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #E4DCCF;
+  transition: all .3s ease-in-out;
+}
+
+.postMenuItem:hover{
+  background-color: #AEC2B6;
+}
+
+.postCenter{
+  margin: 20px 0;
+}
+
+.postText{
+  margin-bottom: 20px;
+}
+
+.postImg{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.postBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft{
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postLikeCounter{
+  font-size: 15px;
+}
+
+.postCommentText{
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
